@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "amd": true,
+    "node": true
+  },
+  "globals": {
+    "define": "readonly",
+    "self": "readonly"
+  },
+  "rules": {
+    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+    "no-restricted-globals": ["error", {
+      "name": "self",
+      "message": "Use 'globalThis' instead."
+    }]
+  },
+  "overrides": [
+    {
+      "files": ["src/commonResource/js/bootstrap.js"],
+      "rules": {
+        "no-unused-expressions": "off",
+        "no-restricted-globals": "off"
+      }
+    }
+  ]
+}
