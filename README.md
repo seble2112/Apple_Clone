@@ -20,9 +20,8 @@ A responsive clone of the Apple website built with React, featuring a modern UI 
 
 ## 👨‍💻 Author
 
-**Temesgen Abdissa**  
-[GitHub Profile](https://github.com/TEMESGENABDISSA)  
-[Email](mailto:temesgenabdissa2@gmail.com)
+**seble martinez**  
+
 
 ## 📋 Prerequisites
 
